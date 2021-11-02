@@ -48,6 +48,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="성별" />
+
+
+
+
+
+
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,6 +82,9 @@
     </RadioGroup>
 
 
+
+
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,14 +95,23 @@
         android:layout_height="wrap_content"
         android:text="개인정보에 동의합니다."/>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/neppplus_logo"/>
 
+        </LinearLayout>
 
-   <Button
+
+    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:textAllCaps="false"
